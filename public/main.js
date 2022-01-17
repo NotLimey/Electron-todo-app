@@ -20,6 +20,8 @@ function createWindow() {
     }
   })
 
+  win.setIcon(path.join(__dirname, '/ListIcon.ico'));
+
   win.loadURL(
     isDev
       ? 'http://localhost:3000'
