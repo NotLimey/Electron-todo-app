@@ -13,7 +13,7 @@ interface TodoProps {
 
 const Todo : React.FC<TodoProps> = (props : TodoProps) => {
     return (
-        <div className={`px-3 py-2 text-gray-800 rounded-lg mb-4 ${props.todo.Completed && 'opacity-50'}`} style={props.style}>
+        <div className={`px-3 py-2 text-gray-100 rounded-lg mb-4 ${props.todo.Completed && 'opacity-50'}`} style={props.style}>
             <div className="flex justify-between items-center">
                 <p className="font-semibold text-base">{props.todo.Text}</p>
                 <div className="flex">
