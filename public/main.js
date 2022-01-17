@@ -12,6 +12,7 @@ function createWindow() {
     height: 600,
     minWidth: 700,
     minHeight: 400,
+    icon: __dirname + "/ListIcon.ico",
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true
